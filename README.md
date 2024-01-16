@@ -35,30 +35,14 @@ limitations under the License.
 
 > Single-precision complex floating-point zero.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/constants-complex64-zero
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var COMPLEX64_ZERO = require( '@stdlib/constants-complex64-zero' );
+import COMPLEX64_ZERO from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex64-zero@deno/mod.js';
 ```
 
 #### COMPLEX64_ZERO
@@ -66,8 +50,8 @@ var COMPLEX64_ZERO = require( '@stdlib/constants-complex64-zero' );
 Single-precision complex floating-point zero.
 
 ```javascript
-var realf = require( '@stdlib/complex-realf' );
-var imagf = require( '@stdlib/complex-imagf' );
+import realf from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-realf@deno/mod.js';
+import imagf from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-imagf@deno/mod.js';
 
 var re = realf( COMPLEX64_ZERO );
 // returns 0.0
@@ -87,10 +71,10 @@ var im = imagf( COMPLEX64_ZERO );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var realf = require( '@stdlib/complex-realf' );
-var imagf = require( '@stdlib/complex-imagf' );
-var Complex64Array = require( '@stdlib/array-complex64' );
-var COMPLEX64_ZERO = require( '@stdlib/constants-complex64-zero' );
+import realf from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-realf@deno/mod.js';
+import imagf from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-imagf@deno/mod.js';
+import Complex64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex64@deno/mod.js';
+import COMPLEX64_ZERO from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex64-zero@deno/mod.js';
 
 var x = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0 ] );
 // returns <Complex64Array>
@@ -143,7 +127,7 @@ im = imagf( v );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -205,7 +189,7 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/constants/complex128/zero]: https://github.com/stdlib-js/constants-complex128-zero
+[@stdlib/constants/complex128/zero]: https://github.com/stdlib-js/constants-complex128-zero/tree/deno
 
 <!-- </related-links> -->
 
