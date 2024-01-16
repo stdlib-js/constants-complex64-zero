@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/constants-complex64-zero",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Single-precision complex floating-point zero.",
   "license": "Apache-2.0",
   "author": {
