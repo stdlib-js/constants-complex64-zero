@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import COMPLEX64_ZERO from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex64-zero@deno/mod.js';
+import COMPLEX64_ZERO from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex64-zero@v0.2.1-deno/mod.js';
 ```
 
 #### COMPLEX64_ZERO
@@ -74,7 +74,7 @@ var im = imagf( COMPLEX64_ZERO );
 import realf from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-realf@deno/mod.js';
 import imagf from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-imagf@deno/mod.js';
 import Complex64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex64@deno/mod.js';
-import COMPLEX64_ZERO from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex64-zero@deno/mod.js';
+import COMPLEX64_ZERO from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex64-zero@v0.2.1-deno/mod.js';
 
 var x = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0 ] );
 // returns <Complex64Array>
