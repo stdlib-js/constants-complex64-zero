@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2024 The Stdlib Authors.
@@ -16,36 +16,22 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
 
-var realf = require( '@stdlib/complex-float32-real' );
-var imagf = require( '@stdlib/complex-float32-imag' );
-var Complex64Array = require( '@stdlib/array-complex64' );
-var COMPLEX64_ZERO = require( './../lib' );
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
 
-var x = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0 ] );
-// returns <Complex64Array>
+import { Complex64 } from '@stdlib/types/complex';
 
-var v = x.get( 0 );
-// returns <Complex64>
+/**
+* Single-precision complex floating-point zero.
+*
+* @example
+* var zero = COMPLEX64_ZERO;
+* // returns <Complex64>
+*/
+declare const COMPLEX64_ZERO: Complex64;
 
-var re = realf( v );
-console.log( re );
-// => 1.0
 
-var im = imagf( v );
-console.log( im );
-// => 2.0
+// EXPORTS //
 
-x.fill( COMPLEX64_ZERO );
-
-v = x.get( 0 );
-// returns <Complex64>
-
-re = realf( v );
-console.log( re );
-// => 0.0
-
-im = imagf( v );
-console.log( im );
-// => 0.0
+export = COMPLEX64_ZERO;
