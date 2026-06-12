@@ -1,5 +1,4 @@
-"use strict";var e=require("@stdlib/complex-float32-ctor"),r=new e(0,0);module.exports=r;
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2024 The Stdlib Authors.
@@ -16,4 +15,23 @@
 * See the License for the specific language governing permissions and
 * limitations under the License.
 */
-//# sourceMappingURL=index.js.map
+
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
+
+import { Complex64 } from '@stdlib/types/complex';
+
+/**
+* Single-precision complex floating-point zero.
+*
+* @example
+* var zero = COMPLEX64_ZERO;
+* // returns <Complex64>
+*/
+declare const COMPLEX64_ZERO: Complex64;
+
+
+// EXPORTS //
+
+export = COMPLEX64_ZERO;
